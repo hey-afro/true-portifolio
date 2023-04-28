@@ -1,0 +1,82 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(../fotos/fundo-gato.png);
+    background-position: center center;
+    display: flex;
+    flex-flow: column;
+}
+header{
+    background-color: rgb(178, 122, 0);
+    padding: 20px;
+    height: 100px;
+}
+h1{
+    font-variant: small-caps;
+    font-size: 3em;
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    height: 80vh;
+    padding: 20px;
+}
+.name{
+    margin-top: 40px;
+}
+.name > h2{
+    color: white;
+    font-size: 2em ;
+}
+.front{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+.front > a > img{
+    border-radius: 50%;
+}
+@media (max-width:900px)
+{.front > a > img{
+    width: 300px;
+}
+}
+.intro{
+ margin: 30px;
+}
+.intro > ul{
+    list-style: none;
+    text-align: center;
+}
+.intro > ul > li > a{
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+} 
+.intro > ul > li > a:hover{
+    padding-right: 9px;
+    color: red;
+}
+.intro > ul > li{
+    margin: 10px;
+}
+footer{
+    margin: auto;
+}
+footer > a > img{
+    margin: 20px;
+    width: 45px;
+}
+footer > a:hover{
+    margin-bottom: 10px;
+}
