@@ -71,6 +71,7 @@ main{
     margin: 10px;
 }
 footer{
+    height: 20vh;
     margin: auto;
 }
 footer > a > img{
